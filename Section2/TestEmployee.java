@@ -1,5 +1,7 @@
 package Section2;
 
+import java.util.Set;
+
 public class TestEmployee{
    public static void main(String[] args) {
     Employee e1 = new Employee();
@@ -8,7 +10,8 @@ public class TestEmployee{
     Employee e4 = new Employee(4, "laith" ,200);
     PartTimeEmployee e5 = new PartTimeEmployee();
     FullTimeEmployee e6 = new FullTimeEmployee();
-
+    Manger e7 = new  Manger();
+    Manger e8 = new  Manger();
     e1.setId(1);
     e1.setName("Ahmad");
     e1.setSalary(1000);
@@ -27,6 +30,19 @@ public class TestEmployee{
     e6.setName("ali");
     e6.setSalary(1000);
     e6.setVacation(30);
+
+   e7.setId(7);
+   e7.setName("Madi");
+   e7.setSalary(1000);
+   e7.setBouns(55);
+
+
+   e8.setId(8);
+   e8.setName("Madi");
+   e8.setSalary(2000);
+   e8.setPerc(0.02);
+
+
     
 
 
@@ -52,8 +68,21 @@ public class TestEmployee{
     
     
     System.out.println("Employee 6: "+ e6.getId() + " " +e6.getName() + " " + e6.getSalary() + " " + e6.getVacation());
+    
+    
+    System.out.println("Employee 7: "+ e7.getId() + " " +e7.getName() + " " + e7.getSalary() + " " + e7.getBouns() + "\n" + e7.calculateSalry());
+
+
+    System.out.println("Employee 8: "+ e8.getId() + " " +e8.getName() + " " + e8.getSalary() +  " \n" + e8.calculateNetSalary());
+    
+    
     }
+
+
+    
    }
+
+   
 
     
 
