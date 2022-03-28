@@ -41,6 +41,7 @@ public class TestEmployee{
     e8.setName("Madi");
     e8.setSalary(2000);
     e8.setPerc(0.02);
+    e8.setBouns(200);
 
 
     

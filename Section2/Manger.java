@@ -28,7 +28,7 @@ public class Manger extends Employee {
 
    double calculateSalry(){
 
-     double totalSalary = getSalary() + getBouns();
+    double totalSalary = getSalary() + getBouns();
 
 
      return totalSalary;
@@ -38,7 +38,7 @@ public class Manger extends Employee {
 
    double calculateNetSalary(){
 
-    double netWorth = getSalary() - (getSalary() * getPerc());
+    double netWorth = calculateSalry() - (calculateSalry() * getPerc());
 
 
     return netWorth;
