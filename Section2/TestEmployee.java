@@ -22,7 +22,7 @@ public class TestEmployee{
     e2.setSalary(2000);
 
     e5.setId(5);
-    e5.setName("madi");
+    e5.setName("Madi");
     e5.setSalary(1000);
     e5.setHour(15);
 
@@ -31,16 +31,16 @@ public class TestEmployee{
     e6.setSalary(1000);
     e6.setVacation(30);
 
-   e7.setId(7);
-   e7.setName("Madi");
-   e7.setSalary(1000);
-   e7.setBouns(55);
+    e7.setId(7);
+    e7.setName("Madi");
+    e7.setSalary(1000);
+    e7.setBouns(55);
 
 
-   e8.setId(8);
-   e8.setName("Madi");
-   e8.setSalary(2000);
-   e8.setPerc(0.02);
+    e8.setId(8);
+    e8.setName("Madi");
+    e8.setSalary(2000);
+    e8.setPerc(0.02);
 
 
     
