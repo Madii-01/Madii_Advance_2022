@@ -1,4 +1,4 @@
-package Section2;
+package Lab;
 
 import java.util.Collections;
 import java.util.List;
