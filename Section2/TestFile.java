@@ -33,7 +33,7 @@ public class TestFile {
 		FileReader fr = null;
 		BufferedReader br = null;
 		try {
-			fr = new FileReader("d:\\AdvProg.txt");
+			fr = new FileReader("d:\\madi.txt");
 			br = new BufferedReader(fr);
 
 			String s = br.readLine();
