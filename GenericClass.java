@@ -11,5 +11,6 @@ public class GenericClass <E> {
     public void setValue(E value) {
         this.value = value;
     }
+}
     
     
