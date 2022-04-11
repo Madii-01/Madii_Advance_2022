@@ -14,6 +14,7 @@ public class TestFile {
 
         fr = new FileReader("d://madi.txt");
         br =  new BufferedReader(fr);
+        
 
         
         
